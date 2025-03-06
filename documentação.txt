@@ -1,0 +1,18 @@
+Desafios encontrados:
+    Os meus maiores desafios foram encontrados na parte do css e conseguir organizar os elementos nos lugares desejados, um pouco da parte de conctar cada rota em cada parte. 
+
+Documentação:
+
+Requisitos funcionais: 
+    - Login da conta: quando iniciar o banco de dados, será apresentado um formulário para envio das informações já forncecidas para o cliente, que são elas, nome - teste e senha - exemplo, após o preenchimento o usuário deverá clicar no botão de "entrar" para poder acessar o restante do sistema;
+
+    - Vizualização de carros: quando acessar essa parte, o usuário terá acesso aos carros que já foram cadastrados e suas informações (proprietário, placa, horário da entrada e da saída), em cima tabela existem dois botões, um para o cadastro de novos carros ("Novo carro") e um para voltar para a página de login ("Voltar"). 
+
+    - Cadastro de novos carros: após clicar no botão de "Novo carro" na página de vizualização, o usuário terá acesso ao formulário de cadastro, os campos necessários para o cadastro são: proprietário, placa, horário da entrada e da saída (lembrando que no horário da saída é necessário preencher com a palavra "nulo"), quando tudo estiver preenchido, o usuário deve clicar no botão "Adicionar carro", ele será direcionado automaticamente para a página de vizualização. Em baixo da tabela, existem dois botões um para voltar para a página de vizualização ("Ver carros do momento") e um para voltar para a página de login ("Voltar"). 
+
+Requisitos não-funcionais:
+    - Escalabilidade: trazendo um bom funcionamento mesmo quando acessado por mais de um usuário ao mesmo tempo.
+    
+    - Segurança e Confiabilidade: informações do usuário seguras no banco de dados, pois bastante pessoas terão acesso. 
+
+    - Banco de Dados: para o desenvolvimento da plataforma digital será utilizado um banco de dados para a realização de algumas funções.

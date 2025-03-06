@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Carros no Estacionamento</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<header>
+  <img src="assents/Vector.png" alt="">
+  <h1 id="estacio">Estacionamento</h1>
+</header>
+
+
+<body>
+  <h1 id="titulo">Cadastro de Carros</h1>
+
+
+  <form id="carroForm">
+
+    <label for="proprietario">Proprietário:</label>
+    <input type="text" id="proprietario" name="proprietario" required>
+
+    <label for="placa">Placa:</label>
+    <input type="text" id="placa" name="placa" required>
+
+    <label for="horario">Horário da entrada:</label>
+    <input type="text" id="horario" name="horario" required>
+
+    <label for="horario_saida">Horário da saída:</label>
+    <input type="text" id="horario_saida" name="horario_saida" required>
+
+    <button onclick="cadastrar(event)">Adicionar carro</button>
+  </form>
+
+  <div>
+
+    <a href="index.html"><button class="botao_cadastro">Ver carros do momento</button></a>
+    <a href="login.html"><button class="botao_cadastro">Voltar</button></a>
+  </div>
+
+
+  </div>
+
+</body>
+
+<footer>
+  <img src="assents/Vector.png" alt="">
+</footer>
+
+<!-- <script src="./js/carros.js"></script> -->
+<script src="./js/cadastro.js"></script>
+
+</html>
